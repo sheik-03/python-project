@@ -8,7 +8,7 @@ pipeline{
         }
         stage('build'){
             steps{
-                sh "mkdir DEVOPS"
+                sh 'python3 --version
                 echo "welcome to devops team"
             
             }
@@ -20,7 +20,7 @@ pipeline{
         }
         stage('deploy'){
             steps{
-                echo "welcome to deploying team "
+                sh 'python3 app.py'
             }
         }
     }
