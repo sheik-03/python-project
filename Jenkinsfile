@@ -8,7 +8,7 @@ pipeline{
         }
         stage('build'){
             steps{
-                sh 'python3 --version
+                sh 'python3 --version'
                 echo "welcome to devops team"
             
             }
